@@ -39,7 +39,7 @@ def main():
 
         
         
-        x=tmr%3200
+        x=tmr%3201
         
         screen.blit(bg_img, [-x, 0])
         screen.blit(bg_img_2,[-x+1600,0])
